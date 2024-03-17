@@ -6,7 +6,9 @@
     height: 80px;
     padding: 0px 15px;
     margin-bottom: 50px;
-    @include flex-center
+    padding-top: 80px;
+    @include flex-center;
+
 }
 
 .search {

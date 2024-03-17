@@ -9,11 +9,13 @@ const HomePage = () => {
 	return (
 		<AppContextProvider>
 			<div className='weather'>
-				<div className='weather__bg-img'>
-					<img src={WeatherBg} alt='bg' />
+				<div className='container'>
+					<div className='weather__bg-img'>
+						<img src={WeatherBg} alt='bg' />
+					</div>
+					<Header />
+					<Weather />
 				</div>
-				<Header />
-				<Weather />
 			</div>
 		</AppContextProvider>
 	);
