@@ -10,4 +10,4 @@ npm start
 ```
 ## Deploy Link
 
-`Drag and Drop` : <https://sensational-tulumba-67fab2.netlify.app/>
+`Weather` : <https://sensational-tulumba-67fab2.netlify.app/>
