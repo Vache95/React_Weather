@@ -1,0 +1,24 @@
+@mixin flex-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@mixin flex-column {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+@mixin widthHeightFull {
+    width: 100%;
+    height: 100%;
+}
+
+@mixin cart {
+    border-radius: 5px;
+    background-color: #ffffff5a;
+    backdrop-filter: blur(3px);
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    padding: 20px;
+}
